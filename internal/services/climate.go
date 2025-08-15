@@ -30,3 +30,21 @@ func (c Climate) SetTemperature(entityId string, serviceData types.SetTemperatur
 
 	return c.conn.WriteMessage(req)
 }
+
+func (c Climate) SetHvacMode(entityId string, hvacMode string) error {
+	req := NewBaseServiceRequest(entityId)
+	req.Domain = "climate"
+	req.Service = "set_hvac_mode"
+	req.ServiceData = map[string]any{"hvac_mode": hvacMode}
+
+	return c.conn.WriteMessage(req)
+}
+
+func (c Climate) SetPresetMode(entityId string, presetMode string) error {
+	req := NewBaseServiceRequest(entityId)
+	req.Domain = "climate"
+	req.Service = "set_preset_mode"
+	req.ServiceData = map[string]any{"preset_mode": presetMode}
+
+	return c.conn.WriteMessage(req)
+}
