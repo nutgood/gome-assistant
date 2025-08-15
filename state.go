@@ -8,7 +8,7 @@ import (
 
 	"github.com/golang-module/carbon"
 
-	"saml.dev/gome-assistant/internal/http"
+	"github.com/nutgood/gome-assistant/internal/http"
 )
 
 type State interface {

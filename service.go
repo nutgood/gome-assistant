@@ -1,8 +1,8 @@
 package gomeassistant
 
 import (
-	"saml.dev/gome-assistant/internal/services"
-	ws "saml.dev/gome-assistant/internal/websocket"
+	"github.com/nutgood/gome-assistant/internal/services"
+	ws "github.com/nutgood/gome-assistant/internal/websocket"
 )
 
 type Service struct {

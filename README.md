@@ -37,7 +37,7 @@ exclude_domains: ["device_tracker", "person"]
 2. Add a `//go:generate` comment in your project:
 
 ```go
-//go:generate go run saml.dev/gome-assistant/cmd/generate
+//go:generate go run github.com/nutgood/gome-assistant/cmd/generate
 ```
 
 Optionally use the `-config` flag to customize the file path of the config file.

@@ -1,8 +1,8 @@
 package services
 
 import (
-	ws "saml.dev/gome-assistant/internal/websocket"
-	"saml.dev/gome-assistant/types"
+	ws "github.com/nutgood/gome-assistant/internal/websocket"
+	"github.com/nutgood/gome-assistant/types"
 )
 
 /* Structs */

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/golang-module/carbon"
-	"saml.dev/gome-assistant/internal"
+	"github.com/nutgood/gome-assistant/internal"
 )
 
 type ScheduleCallback func(*Service, State)

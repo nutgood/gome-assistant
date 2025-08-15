@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"saml.dev/gome-assistant/internal"
+	"github.com/nutgood/gome-assistant/internal"
 )
 
 type IntervalCallback func(*Service, State)
